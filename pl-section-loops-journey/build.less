@@ -1,0 +1,43 @@
+@import "_mixins.less";
+
+
+.pl-sn-loops{
+  .loops-post{
+    padding: 0 0 1.4em;
+  }
+
+}
+
+.pl-loops{
+  &.left{
+    text-align: left;
+    float:left;
+  }
+  &.right{
+    text-align: right;
+    float: right;
+  }
+  &.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+.loops-title-wrap {
+
+}
+
+.pl-loops-link{
+  color: inherit; 
+  opacity: .6;
+  &:hover{
+    opacity: 1;
+    text-decoration: none; 
+    color: inherit;
+  }
+}
+.pl-loops-thumb img {
+  max-width: 100%;
+}

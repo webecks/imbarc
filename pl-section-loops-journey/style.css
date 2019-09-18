@@ -1,0 +1,146 @@
+.journey-acf {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.journey-acf .journey-post {
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 1.5em;
+}
+
+.journey-post > figure {
+	margin: 0;
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.journey-post > figure a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.journey-post > figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.journey-post .journey-stats {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.5em 0;
+	border-bottom: thin solid #dadada;
+}
+
+.journey-stats .journey-stat {
+	line-height: 1;
+	display: flex;
+	flex: 0 0 100%;
+	max-width: 100%;
+	padding: 0.5em 0;
+}
+
+.journey-stats .journey-stat:not(:first-child) {
+	margin-top: -0.5em;
+}
+
+.journey-stat .icon {
+	font-size: 16px;
+	flex: 0 0 10%;
+	max-width: 10%;
+}
+
+.journey-stat .right {
+	color: #394c3a;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-transform: uppercase;
+	flex: 0 0 90%;
+	max-width: 90%;
+}
+
+.journey-stat .top {
+	font-weight: 400;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+.journey-stat .bottom {
+	font-weight: 700;
+	display: inline-block;
+}
+
+.journey-post .journey-title {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px;
+}
+
+.journey-post > p {
+	font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+	.journey-acf {
+		margin-right: -12px;
+		margin-left: -12px;
+	}
+
+	.journey-acf .journey-post {
+		flex: 0 0 50%;
+		max-width: 50%;
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.journey-acf .journey-post {
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.journey-post .journey-stats {
+		justify-content: space-between;
+	}
+
+	.journey-stats .journey-stat {
+		line-height: 1.2;
+		flex: 0 0 33.3333%;
+		max-width: 33.3333%;
+	}
+
+	.journey-stats .journey-stat:not(:first-child) {
+		margin-top: 0;
+	}
+
+	.journey-stat .icon {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.journey-stat .right {
+		line-height: 1.2;
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+
+	.journey-stat .top {
+		display: block;
+		margin-right: 0.5em;
+	}
+
+	.journey-stat .bottom {
+		display: block;
+	}
+}

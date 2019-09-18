@@ -1,0 +1,149 @@
+# Copyright (C) 2017 PageLines
+# This file is distributed under the same license as the PageLines Section Loops package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PageLines Section Loops 5.0.20\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pl-section-loops\n"
+"POT-Creation-Date: 2017-06-12 19:50:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: pl-section-loops.php:59
+msgid "Layout Options"
+msgstr ""
+
+#: pl-section-loops.php:67
+msgid "Loops Shortcodes / HTML"
+msgstr ""
+
+#: pl-section-loops.php:74
+msgid "Grid Columns Standard"
+msgstr ""
+
+#: pl-section-loops.php:77 pl-section-loops.php:91
+msgid "1 Column (default)"
+msgstr ""
+
+#: pl-section-loops.php:78 pl-section-loops.php:92
+msgid "2 Columns"
+msgstr ""
+
+#: pl-section-loops.php:79 pl-section-loops.php:93
+msgid "3 Columns"
+msgstr ""
+
+#: pl-section-loops.php:80 pl-section-loops.php:94
+msgid "4 Columns"
+msgstr ""
+
+#: pl-section-loops.php:81 pl-section-loops.php:95
+msgid "6 Columns"
+msgstr ""
+
+#: pl-section-loops.php:88
+msgid "Grid Columns On Mobile"
+msgstr ""
+
+#: pl-section-loops.php:107
+msgid "Base Font Size (px)"
+msgstr ""
+
+#: pl-section-loops.php:114
+msgid "Query Options"
+msgstr ""
+
+#: pl-section-loops.php:122
+msgid "Use default query object?"
+msgstr ""
+
+#: pl-section-loops.php:123
+msgid ""
+"If selected Loops will use the standard query object provided by WordPress "
+"and all the query options below will be ignored. You can use this option on "
+"search pages, archives etc."
+msgstr ""
+
+#: pl-section-loops.php:130
+msgid "Select Post Type"
+msgstr ""
+
+#: pl-section-loops.php:137
+msgid "Select Taxonomy Term"
+msgstr ""
+
+#: pl-section-loops.php:142
+msgid "Sort elements by postdate"
+msgstr ""
+
+#: pl-section-loops.php:146
+msgid "Date Descending (default)"
+msgstr ""
+
+#: pl-section-loops.php:147
+msgid "Date Ascending"
+msgstr ""
+
+#: pl-section-loops.php:148
+msgid "Random"
+msgstr ""
+
+#: pl-section-loops.php:156
+msgid "Posts Per Page (adds pagination)"
+msgstr ""
+
+#: pl-section-loops.php:164
+msgid "Posts Offset"
+msgstr ""
+
+#: pl-section-loops.php:168
+msgid "Meta Query Options"
+msgstr ""
+
+#: pl-section-loops.php:171
+msgid ""
+"Click <a "
+"href=\"https://codex.wordpress.org/Class_Reference/WP_Query#Custom_Field_"
+"Parameters\" target =\"_blank\">here</a> for WP_Query Documentation on the "
+"WordPress Codex<br />(opens in new tab)"
+msgstr ""
+
+#: pl-section-loops.php:175
+msgid "Relation"
+msgstr ""
+
+#: pl-section-loops.php:176
+msgid ""
+"The logical relationship between each meta_query when there is more than "
+"one."
+msgstr ""
+
+#: pl-section-loops.php:303
+msgid "Sorry, what you are looking for isn't here."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PageLines Section Loops"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A powerful section for controlling the native WordPress loop and WP Query. "
+"With layout controls."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PageLines"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.pagelines.com"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid "loop, grid, magazine, taxonomy, posts, cpt"
+msgstr ""
